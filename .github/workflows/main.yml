@@ -1,4 +1,4 @@
-name: Docker Build and Push
+name: Docker manager_Workout_Tracker
 
 on:
   push:
@@ -26,4 +26,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-practice:latest
+        tags: ${{ secrets.DOCKER_HUB_USERNAME }}/docker-WT:latest
