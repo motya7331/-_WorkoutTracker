@@ -110,10 +110,6 @@
 2. **Установка**:
    - Клонировать: `git clone https://github.com/mxtyajezz/WorkoutTracker`.
    - Открыть `WorkoutTracker.sln`.
-   - Установить NuGet-пакеты:
-     - `Microsoft.EntityFrameworkCore.Sqlite` (9.0.4).
-     - `Microsoft.EntityFrameworkCore` (9.0.2).
-     - `Newtonsoft.Json` (13.0.3).
 3. **База данных**:
    - `workouts.db` создаётся в `bin/Debug/net8.0-windows`.
    - Путь в `WorkoutContext.cs` относительный.
@@ -137,7 +133,7 @@
 - [Права пользователей](docs/Права_Пользователей.md)
 
 ## Диаграммы
-Созрованы в PlantUML, хранятся в `Диаграммы/`:
+Созданы в PlantUML, хранятся в `Workout_Tracker-master\WorkoutTracker\Документы\Диаграммы`:
 - [Варианты использования](Диаграммы/WorkoutTracker_UseCase.png)
 - [Диаграмма пакетов](Диаграммы/WorkoutTracker_Packages.png)
 - [Диаграмма классов](Диаграммы/WorkoutTracker_Classes.png)
