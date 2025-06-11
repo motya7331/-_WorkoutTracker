@@ -41,7 +41,7 @@
 - **Тест**: Проверка функций приложения.
 
 ## Требования к системе
-- Хранение данных о тренирующихся, тренерах, группах, упражнениях, расписании, результатах.
+- Хранение данных о тренировках, тренерах, группах, упражнениях, расписании, результатах.
 - CRUD-операции для всех данных.
 - Табличное отображение информации.
 - Локальное хранение (SQLite).
@@ -78,7 +78,7 @@
   - **WorkoutTracker**:
     - `Form1.cs`: Главное меню.
     - Формы: `TraineesForm.cs`, `GroupsForm.cs`, etc.
-    - Модели: `Trainee.cs`, `Group.cs`.
+    - Модели: `Trainee.cs`, `Group.cs` в `Models/`.
     - `WorkoutContext.cs`: Контекст SQLite.
   - **Workout_Tracker_Tests**:
     - `Form1.cs`: Форма тестов.
@@ -92,6 +92,8 @@
 4. **Тестирование** (16.04.2025 – 20.04.2025): Тесты CRUD.
 5. **Документация** (21.04.2025 – 25.04.2025): Доки, диаграммы.
 6. **Сдача** (26.04.2025 – 29.04.2025): GitHub, демо.
+
+![Диаграмма Ганта](WorkoutTracker/Диаграммы/Диаграмма_Ганта.jpg)
 
 ## Тестирование
 - **Модуль**: `Workout_Tracker_Tests`.
@@ -110,10 +112,6 @@
 2. **Установка**:
    - Клонировать: `git clone https://github.com/mxtyajezz/WorkoutTracker`.
    - Открыть `WorkoutTracker.sln`.
-   - Установить NuGet-пакеты:
-     - `Microsoft.EntityFrameworkCore.Sqlite` (9.0.4).
-     - `Microsoft.EntityFrameworkCore` (9.0.2).
-     - `Newtonsoft.Json` (13.0.3).
 3. **База данных**:
    - `workouts.db` создаётся в `bin/Debug/net8.0-windows`.
    - Путь в `WorkoutContext.cs` относительный.
